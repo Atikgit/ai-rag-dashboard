@@ -6,6 +6,7 @@ import type {
 } from "@/lib/types"
 
 export const MODEL_OPTIONS: ModelOption[] = [
+  { id: "muse-glimmer", label: "Muse-Glimmer-30B", provider: "Meta" },
   { id: "gpt-4o", label: "GPT-4o", provider: "OpenAI" },
   { id: "claude-3.5-sonnet", label: "Claude 3.5 Sonnet", provider: "Anthropic" },
   { id: "llama-3", label: "LLaMA-3 70B", provider: "Meta" },

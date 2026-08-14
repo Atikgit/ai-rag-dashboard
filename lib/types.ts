@@ -1,4 +1,4 @@
-export type ModelId = "gpt-4o" | "claude-3.5-sonnet" | "llama-3" | "mistral"
+export type ModelId = "muse-glimmer" | "gpt-4o" | "claude-3.5-sonnet" | "llama-3" | "mistral"
 
 export interface ModelOption {
   id: ModelId
